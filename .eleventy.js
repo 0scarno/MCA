@@ -67,7 +67,7 @@ export default function(eleventyConfig) {
       sharpWebpOptions: { quality: outputQualityWebp },
       sharpAvifOptions: { quality: outputQualityAvif },
       formats: outputFormats,
-      urlPath: "/assets/images/",
+      urlPath: "/MCA/assets/images/",
       outputDir: "./docs/assets/images/",
       // cacheOptions: {
       //   // If image is a remote URL, this is the amount of time before 11ty fetches a fresh copy
@@ -222,10 +222,9 @@ export default function(eleventyConfig) {
   eleventyConfig.setServerOptions({
     liveReload: false
   });
-
   return {
     templateFormats: ["md", "njk", "liquid"],
-    pathPrefix: "/",
+    pathPrefix: "/MCA/",
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
