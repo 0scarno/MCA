@@ -27,7 +27,7 @@ export default function(eleventyConfig) {
             widths: [48,192,512],
             formats: ["png"],
       urlPath: "/",
-      outputDir: "./_site/",
+      outputDir: "./docs/",
       filenameFormat: function (id, src, width, format, options) {
             const name = "favicon";
         return `${name}-${width}.${format}`;
@@ -68,7 +68,7 @@ export default function(eleventyConfig) {
       sharpAvifOptions: { quality: outputQualityAvif },
       formats: outputFormats,
       urlPath: "/assets/images/",
-      outputDir: "./_site/assets/images/",
+      outputDir: "./docs/assets/images/",
       // cacheOptions: {
       //   // If image is a remote URL, this is the amount of time before 11ty fetches a fresh copy
       //   duration: "5y",
@@ -232,7 +232,7 @@ export default function(eleventyConfig) {
       input: ".",
       includes: "_includes",
       data: "_data",
-      output: "_site"
+      output: "docs"
     }
   };
 };
