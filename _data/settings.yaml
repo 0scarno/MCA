@@ -10,11 +10,11 @@ metadata:
   site_subtitle_2: Brisbane, Aus
   # Home page description, accepts markdown
   site_description: >
-    Here I am changing the description of the site.
+    Here I am changing the description of the site. making a small change.
   # footer contact email
   site_email: contact@memorycardaudio.com
   # footer social link (the social title is defined in the i18n section)
-  site_social_url: 'https://github.com/danurbanowicz/halide'
+  site_social_url: ''
   # SVG image used for sharing/bookmark icons
   site_icon_svg: /assets/uploads/favicon.svg
   # optional PNG image used for sharing/bookmark icons
@@ -24,10 +24,10 @@ metadata:
   # home page SEO fields
   seo:
     # <title> tag
-    site_title: Halide - Jamstack portfolio theme
+    site_title: Memory Card Audio
     # meta description
     site_description: >-
-      A customizable, minimalist portfolio website designed for photographers and still image creators.
+      Music & Sound for Games.
     # Adds a noindex <meta> tag on all site pages, be careful y'all!
     # Instead you can block indexing per-project with no_index: true
     no_index: false

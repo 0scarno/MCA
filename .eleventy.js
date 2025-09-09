@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
 import CleanCSS from "clean-css";
 import UglifyJS from "uglify-js";
-import htmlmin from "html-minifier";
+//import htmlmin from "html-minifier";
 import yaml from "js-yaml";
 import slugify from "slugify";
 import eleventyHelmetPlugin from "eleventy-plugin-helmet";
@@ -27,7 +27,7 @@ export default function(eleventyConfig) {
             widths: [48,192,512],
             formats: ["png"],
       urlPath: "/",
-      outputDir: "./_site/",
+      outputDir: "./docs/",
       filenameFormat: function (id, src, width, format, options) {
             const name = "favicon";
         return `${name}-${width}.${format}`;
@@ -68,7 +68,7 @@ export default function(eleventyConfig) {
       sharpAvifOptions: { quality: outputQualityAvif },
       formats: outputFormats,
       urlPath: "/assets/images/",
-      outputDir: "./_site/assets/images/",
+      outputDir: "./docs/assets/images/",
       // cacheOptions: {
       //   // If image is a remote URL, this is the amount of time before 11ty fetches a fresh copy
       //   duration: "5y",
@@ -167,7 +167,7 @@ export default function(eleventyConfig) {
   });
 
   // Minify HTML output
-  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+  /*eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     if (outputPath.indexOf(".html") > -1) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
@@ -178,6 +178,7 @@ export default function(eleventyConfig) {
     }
     return content;
   });
+  */
 
   // Create a hash from date (e.g. for permalinks)
   eleventyConfig.addFilter("hashFromDate", dateObj => {
@@ -221,7 +222,6 @@ export default function(eleventyConfig) {
   eleventyConfig.setServerOptions({
     liveReload: false
   });
-
   return {
     templateFormats: ["md", "njk", "liquid"],
     pathPrefix: "/",
@@ -232,7 +232,7 @@ export default function(eleventyConfig) {
       input: ".",
       includes: "_includes",
       data: "_data",
-      output: "_site"
+      output: "docs"
     }
   };
 };
