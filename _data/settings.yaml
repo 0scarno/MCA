@@ -10,7 +10,7 @@ metadata:
   site_subtitle_2: Brisbane, Aus
   # Home page description, accepts markdown
   site_description: >
-    Here I am changing the description of the site.
+    Here I am changing the description of the site. making a small change.
   # footer contact email
   site_email: contact@memorycardaudio.com
   # footer social link (the social title is defined in the i18n section)
