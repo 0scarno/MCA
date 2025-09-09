@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
 import CleanCSS from "clean-css";
 import UglifyJS from "uglify-js";
-import htmlmin from "html-minifier";
+//import htmlmin from "html-minifier";
 import yaml from "js-yaml";
 import slugify from "slugify";
 import eleventyHelmetPlugin from "eleventy-plugin-helmet";
@@ -167,7 +167,7 @@ export default function(eleventyConfig) {
   });
 
   // Minify HTML output
-  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+  /*eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     if (outputPath.indexOf(".html") > -1) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
@@ -178,6 +178,7 @@ export default function(eleventyConfig) {
     }
     return content;
   });
+  */
 
   // Create a hash from date (e.g. for permalinks)
   eleventyConfig.addFilter("hashFromDate", dateObj => {
