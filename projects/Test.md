@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Testing
+title: ‎
 description: |
   An example project description
 year: 2021
