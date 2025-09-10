@@ -7,10 +7,16 @@ metadata:
   site_logo: /assets/uploads/favicon.svg
   # site subtitles are optional
   site_subtitle_1: Music & Sound for Games
-  site_subtitle_2: Brisbane, Aus
+  site_subtitle_2: Australia
   # Home page description, accepts markdown
   site_description: >
-    Here I am changing the description of the site. making a small change.
+    Memory Card Audio creates bespoke sound and music for games. 
+    From initial concept to final implementation, we provide a wholistic end to end audio solution.  
+
+    ‎---  
+
+    From melodic instrumentals to haunting atmospheres, driving breakbeats to tactile interactions, Memory Card Audio
+    works across a wide range of styles and genres, finding something that highlights the character of each project.
   # footer contact email
   site_email: contact@memorycardaudio.com
   # footer social link (the social title is defined in the i18n section)
@@ -18,7 +24,7 @@ metadata:
   # SVG image used for sharing/bookmark icons
   site_icon_svg: /assets/uploads/favicon.svg
   # optional PNG image used for sharing/bookmark icons
-  site_icon_png: ''
+  site_icon_png: '/assets/uploads/memCardXtraSml.png'
   # add a GA4 ID to enable Google Analytics e.g. G-123456789
   site_ga4_id: ''
   # home page SEO fields
@@ -27,7 +33,7 @@ metadata:
     site_title: Memory Card Audio
     # meta description
     site_description: >-
-      Music & Sound for Games.
+      Music & Sound for Games
     # Adds a noindex <meta> tag on all site pages, be careful y'all!
     # Instead you can block indexing per-project with no_index: true
     no_index: false
