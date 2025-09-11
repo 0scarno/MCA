@@ -6,7 +6,6 @@ description: |
 
   Memory Card Audio loves small teams, indies and unique ideas. If you'd like to collaborate, or even just chat, feel free to reach out.
 year: 
-position: 2
 images:
   - src: /assets/uploads/favicon.svg
     caption: Memory Card Audio Logo

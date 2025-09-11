@@ -5,7 +5,7 @@ description: |
   A cooking game with a fantasy twist! Knead the dough, spread the sauce, and prepare… the rat chunks?! Open your own pizzeria deep inside a dungeon, serving weary adventurers who come to rest and refuel between their quests and bounties.
   
 year:
-position: 2
+position: 1
 images:
     - src: /assets/uploads/DUNGEONPIZZA_KEYART.png
       caption: Dungeon Pizza Poster
