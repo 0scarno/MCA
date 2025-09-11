@@ -5,11 +5,11 @@ section: project
 ---
 <article>
 
-  <header class="pb--4">
+  <header class="pb--2">
 
     <div class="grid grid--intro">
 
-      <h1 class="grid__item--span-4 mw--readable">{{ title }}</h1>
+      <h1 class="grid__item--span-4 mw--readable pb--1">{{ title }}</h1>
       <div class="grid__item--span-4 mw--readable markdown">{{ description | renderUsingMarkdown | safe }}</div>
         
       {% if year and settings.theme.theme_features.show_project_year %}
@@ -17,10 +17,16 @@ section: project
           {{ year }}
         </p>
       {% endif %}
-
     </div>
 
   </header>
+  <section>
+    <div class="grid grid--description">
+      <div class="grid__item--span-4 mw--readable">
+        {{ content | safe }}
+      </div>
+    </div>
+  </section>
 
   <section class="grid grid--project pb--3">
 
@@ -66,14 +72,6 @@ section: project
 
     {% endif %}
 
-  </section>
-
-  <section>
-    <div class="grid grid--description pb--6">
-      <div class="grid__item--span-4 mw--readable">
-        {{ content | safe }}
-      </div>
-    </div>
   </section>
   
 </article>
