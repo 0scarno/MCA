@@ -7,7 +7,7 @@ description: |
 year:
 position: 1
 images:
-    - src: /assets/uploads/DUNGEONPIZZA_KEYART.png
+    - src: /assets/uploads/DungeonPizza/DungeonPizza_Vertical.png
       caption: Dungeon Pizza Poster
 date:
 ---
