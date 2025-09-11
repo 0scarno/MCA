@@ -77,7 +77,7 @@ images:
   avif:
     enabled: false
   webp:
-    enabled: true
+    enabled: false
     quality: 75
   jpeg:
     # at least JPEG should be enabled
