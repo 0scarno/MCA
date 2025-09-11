@@ -234,9 +234,21 @@ img {
 
 /* Media Queries */
 
+/* Mobile Breakpoint? */
+@media (min-width: 1px) {
+	.mw--readable {
+		max-width: calc(var(--space) * 15);
+	}
+
+	.grid__item--span-4 {
+		grid-column: span 1;
+	}
+
+
+}
 /* Tablet Breakpoint */
 
-@media (min-width: 540px) {
+@media (min-width: 400px) {
 
 	.mw--readable {
 		max-width: calc(var(--space) * 24);
@@ -261,7 +273,9 @@ img {
 		margin-left: unset;
 		margin-right: unset;
 	}
-
+	iframe{
+		width: 400px;
+	}
 }
 
 /* Small Desktop Breakpoint */
@@ -273,7 +287,7 @@ img {
 	}
 
 	.grid__item--span-4 {
-		grid-column: span 2/5;
+		grid-column: span 3/5;
 	}
 
 	.grid--header,
@@ -306,6 +320,9 @@ img {
 		grid-column: 2 / span 3;
 	}
 
+	iframe{
+		width: 565px;
+	}
 }
 
 /* Desktop Breakpoint */
@@ -327,6 +344,10 @@ img {
 
 	[data-orientation=portrait] {
 		grid-column: 3 / span 2;
+	}
+
+	iframe{
+		width: 565px;
 	}
 
 }
