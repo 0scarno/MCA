@@ -271,8 +271,9 @@ img {
 
 	.grid__item--breakout {
 		margin-left: unset;
-		margin-right: unset;
+		margin-right: unset; 
 	}
+
 	iframe{
 		width: 400px;
 	}
@@ -295,7 +296,7 @@ img {
 	.grid--project,
 	.grid--description,
 	.grid--footer {
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(4, 1fr);;
 	}
 
 	.grid--footer {
@@ -309,7 +310,7 @@ img {
 	.grid__item--end {
 		display: flex;
 		justify-content: flex-end;
-		grid-column: 4;
+		grid-column: 3;
 	}
 
 	[data-orientation] {
@@ -339,7 +340,7 @@ img {
 	}
 
 	[data-orientation] {
-		grid-column: 2 / span 3;
+		grid-column: 3 / span 2;
 	}
 
 	[data-orientation=portrait] {
