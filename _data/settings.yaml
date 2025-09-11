@@ -47,7 +47,7 @@ theme:
     # default colors aka "light mode"
     background: '#C8C8C8'
     text: '#101010'
-    link: '#542BFF'
+    link: '#101010'
     # dark mode colors
     background_dark: '#303030'
     text_dark: '#E1E1E1'
@@ -77,7 +77,7 @@ images:
   avif:
     enabled: false
   webp:
-    enabled: false
+    enabled: true
     quality: 75
   jpeg:
     # at least JPEG should be enabled
@@ -89,7 +89,7 @@ i18n:
   # any valid ISO language code e.g. en or en-US
   site_language: en
   # single-language translations can be defined here
-  site_social_title: GitHub
+  #site_social_title: GitHub
 # Internal config, hidden from Tina CMS
 config:
   # define responsive image widths for project thumbnails and large images
