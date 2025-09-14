@@ -237,13 +237,16 @@ img {
 /* Mobile Breakpoint? */
 @media (min-width: 1px) {
 	.mw--readable {
-		max-width: calc(var(--space) * 15);
+		max-width: calc(var(--space) * 20);
 	}
 
 	.grid__item--span-4 {
 		grid-column: span 1;
 	}
 
+	iframe {
+		max-width: 315px;
+	}
 
 }
 /* Tablet Breakpoint */
