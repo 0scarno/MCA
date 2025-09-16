@@ -245,7 +245,7 @@ img {
 	}
 
 	iframe {
-		max-width: 315px;
+		width: 315px;
 	}
 
 }
@@ -313,7 +313,7 @@ img {
 	.grid__item--end {
 		display: flex;
 		justify-content: flex-end;
-		grid-column: 3;
+		grid-column: 4;
 	}
 
 	[data-orientation] {
