@@ -5,7 +5,7 @@ description: |
   Music & Sound Design
   
 year:
-position: 1
+position: 0
 images:
     - src: /assets/uploads/DungeonPizza/DungeonPizza_Vertical.png
       caption: Dungeon Pizza Poster

@@ -3,6 +3,7 @@ title: Tunes From Bug Village
 description: |
     A collection of calm & quirky tracks. Available on [itch.io](https://memory-card-audio.itch.io/bug-village). Royalty Free. Art by Elly-rose Burrowes @Diimwiit.
 year: 2025
+position: 3
 images:
   - src: /assets/uploads/BugVillage/Gloop_01.png
     caption: Art by Elly-rose Burrowes @Diimwiit

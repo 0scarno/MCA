@@ -4,6 +4,7 @@ title: One More Trail
 description: |
     Music & Sound Design
 year:
+position: 2
 images:
   - src: /assets/uploads/onemoretrail/KeyArt_WithBoarder_1.png
     caption: One More Trail key art

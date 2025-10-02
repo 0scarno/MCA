@@ -3,6 +3,7 @@ title: SumOrbit
 description: |
     Music & Sound Design
 year: 2024
+position: 2
 images:
   - src: /assets/uploads/sumorbit/Sumorbit Box Art Vertical.jpg
     caption: SumOrbit Box Art Vertical
