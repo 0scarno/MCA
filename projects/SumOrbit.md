@@ -5,7 +5,7 @@ description: |
 year: 2024
 position: 2
 images:
-  - src: /assets/uploads/sumorbit/Sumorbit Box Art Vertical.jpg
+  - src: /assets/uploads/sumorbit/sumorbit-capsule.jpg
     caption: SumOrbit Box Art Vertical
   - src: /assets/uploads/sumorbit/Bounce.jpg
     caption: SumOrbit Bounce

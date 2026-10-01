@@ -11,12 +11,11 @@ metadata:
   # Home page description, accepts markdown
   site_description: >
     Memory Card Audio creates bespoke sound and music for games. 
-    From initial concept to final implementation, we provide a wholistic end to end audio solution.  
+    From initial concept to final implementation, MCA provides a wholistic end to end audio solution.  
 
     ‎---  
 
-    From melodic instrumentals to haunting atmospheres, driving breakbeats to tactile interactions, Memory Card Audio
-    works across a wide range of styles and genres, finding something that highlights the character of each project.
+    Memory Card Audio works across a wide range of styles and genres, finding something that highlights the character of each project. Feel free to browse the projects below, or check out the [about page](/about). 
   # footer contact email
   site_email: contact@memorycardaudio.com
   # footer social link (the social title is defined in the i18n section)
